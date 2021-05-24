@@ -6,7 +6,7 @@ This is my reading notes repo to track all of my reading notes.
 My name is Spenser. I am a student at CodeFellows.
 
 ### Growth Mindset
-to me growth mindset is about being able to learn.
+To me growth mindset is about being able to learn.
 - Stay Positive 
 - Always Learn
 - Be Open Minded
