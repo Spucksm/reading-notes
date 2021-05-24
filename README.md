@@ -7,6 +7,7 @@ Hello my name is Spenser, and I am a current student at CodeFellows. I am changi
 
 ### Growth Mindset
 Growth Mindset is a skill that I feel was instilled in me when I joined the United States Marines. I didn't fully comprehend what it was or even think about a growth mindset compared to a fixed mindset. I learned very early in the Marines that to have a linear thought process is to be stagnant. Marines are always evolving, always adapting to the environment they are in. To stay linear, or to treat every situation the same, to never adapt to the ever-changing environment is the fastest way to lose the fight. One of the many moto's or slogans that Marines live by is
+
 Unofficial US Marines slogan:
 > Improvise, Adapt, Overcome
 
@@ -19,9 +20,10 @@ US Marines:
 > 1. Act
 > 1. loop (or start over)
 
-This is a process for reacting to an ever-changing battlespace, or workspace, environment. 
+This is a process for reacting to an ever-changing battlespace, or workspace, environment. Wherever you find yourself.
 
 
-### Heading 3
-
-#### Heading 4
+### 3 Reminders
+1. Dwight D. Eisenhower said: > In preparing for battle, I have always found that plans are useless but planning is indispensable. To me, this means plan, but expect the plan to change on the fly.
+2. Stay flexable
+3. Master the basics, and I can adapt to the challenges.
