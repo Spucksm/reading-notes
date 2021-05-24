@@ -24,6 +24,7 @@ This is a process for reacting to an ever-changing battlespace, or workspace, en
 
 
 ### 3 Reminders
-1. Dwight D. Eisenhower said: > In preparing for battle, I have always found that plans are useless but planning is indispensable. To me, this means plan, but expect the plan to change on the fly.
-2. Stay flexable
-3. Master the basics, and I can adapt to the challenges.
+1. Dwight D. Eisenhower said: 
+2. > In preparing for battle, I have always found that plans are useless but planning is indispensable. To me, this means plan, but expect the plan to change on the fly.
+3. Stay flexable
+4. Master the basics, and I can adapt to the challenges.
