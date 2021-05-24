@@ -28,5 +28,6 @@ This is a process for reacting to an ever-changing battlespace, or workspace, en
 > In preparing for battle, I have always found that plans are useless but planning is indispensable.
  
 To me, this means plan, but expect the plan to change on the fly.
+
 3. Stay flexable
 4. Master the basics, and I can adapt to the challenges.
