@@ -206,11 +206,35 @@
        branch master
        changes to be committed:
        (use "git reset Head..." to unstage)
+       new file: EXAMPLE
+     * this tells us tthat there are changes committed and that the files ahs beeen staged.
  * Committing A File
+   * After stagging one or multiple files, I should commit the changes and record what I did w/in the commit message:
+     * $ git commit -"made change x,y,z"
+   * this has committed changes for the file or files (I can have one commit message for multiple files, if app) to the HEAD
  * Committing All Changes
+   * $ git commit -a 
  * Pushing Changes
+   * push changes to a remote repo:
+     * $git push origin master
+     * note- This cmd pushed changes from the local "master" branch to the remote repo named "origin"  
  * Stashing Changes
+   * if not ready to commit changes, but don't want to lose data:
+     * git stash   (temp removes changes and hides them, gives clean dir) when ready to continue working:
+     * git stash apply   (retrieve the hidden changes)   
 ## Remote Repositories
+   * to collab on oprojects, i must interact with remote repos. I can work with multiple repo's.
  * Cloned Repositories
+   * Git will auto give the name "ORIGIN" to the server and "MASTER" to the local branch 
  * Seeing your Remote
- *      
+   * in terminal: 
+     * git remote   (can iew short names, such as "origin," of all remote handles:
+       * git remote -v  (can view all remote urls
+       *  $ cd example
+          *  $ git remote -v
+             remote1 https://github.com/remote1/example (fetch)
+             remote1 https://github.com/remote1/example (push)
+             remote2 https://github.com/remote2/example (fetch)
+             remote2 https://github.com/remote2/example (push)
+             remote3 https://github.com/remote3/example (fetch)
+             remote3 https://github.com/remote3/example (push)
