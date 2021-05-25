@@ -1,3 +1,4 @@
+102 May 25, 2021 Tuesday
 What is git
 is the engine under the hood for GitHub
 a version control system
@@ -10,3 +11,18 @@ HEAD= the label meaning "you are here"
 can assign messages to commits
 messages are like writing a caption for your snapshot.
 make "COMMIT" often. make small changes to my code and save as= "commit"
+What is GitHub?
+a way to share code 
+an online code saved in the cloud as well as on my local directory
+  version tracking
+  reviewing changes
+  keep changes seperate until you want to add themin
+git + GitHub= awesome
+  allows sep dev work on same code without messing each other up
+repositories
+what is it?
+  is a collection of files and folders that i told Git to pay attention to
+    usually, on project= one repository
+    really large project might have multiple
+    
+ 
