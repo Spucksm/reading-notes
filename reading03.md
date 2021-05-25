@@ -156,6 +156,61 @@
    man git-command
 ## Setting up a Git Repository
  * Imporitng
-  * to import and exsisting project or directory into Git, type into terminal
-   *  
- 
+   * to import and exsisting project or directory into Git, type into terminal
+     1. switch to the target projects direstory
+         a. $ cd test (cd= change directory)
+     2. use the Git init command
+         b. $ git init
+            i. at this stage, i have created a new subdirectory named ".git" that has the repository files. tracking has not commenced.
+     3. To start tracking these repository files, preform an inital commit by typing the following:
+        c. $ git add ```*.c```
+        d. $ git add LICENSE
+        e. $git commit -m "any message here"
+        files are now tracked and there's an inital commit
+ * Cloning
+   * I can also create a copy of an exisitng Git repo by cloning repo
+     * $ git clone https://github.com/test mydirectory
+       *command makes a copy of the tgt repo in a dir named "mydirectory"  
+## Workflow
+ * Local REpository structure
+   * Working Directory: the actual files reside here.
+   * Index: The area used for staging
+   * Head: Points to the most recent commit
+   ![workflow}](https://blog.udemy.com/wp-content/uploads/2015/08/image036.png)
+ * Saving Changes
+   * All files in a checked out (or working) copy of a project file are either in atracked or untracked state.
+   * Tracked
+     * can be modified, unmodified, or staged: they were park fo the most recent file snapshot.
+   * untracked
+     * were not part of the last snapshot and do not currently reside in the staging area.
+   * after cloning a repo, files have tracked status and are unmod because they have been checked out but not edited
+ * The Lifecycle of File Status
+   1. After you edit a file, Git flags it as modified because of changes made after the previous commit.
+   2. you stage the modified file.
+   3. Then, you commit staged chages.
+   [Lifecycle of file status](https://blog.udemy.com/wp-content/uploads/2015/08/image006.png) 
+ * Check file Status
+   * to determine the state of files:
+     * $ git status
+   * on branch master
+   * nothing to commit, working directory clean
+   * not- this indicates which brach i'm on (will over branches in a later section) and states "working directory clean," which menas that files have tracked or modified status at the moment. Also, no untracked files are present because Git has not listed any.  
+ * Tracking and Staging a New File
+   * Single File- trakc one file only:
+     * git add filename
+   * All files:
+     * $git add *
+   * note- after using these commands, files are tracked and staged for committing.
+   * After adding a new file called "Example" i will see info regarding changes to be committed:
+     * $ git status
+       branch master
+       changes to be committed:
+       (use "git reset Head..." to unstage)
+ * Committing A File
+ * Committing All Changes
+ * Pushing Changes
+ * Stashing Changes
+## Remote Repositories
+ * Cloned Repositories
+ * Seeing your Remote
+ *      
