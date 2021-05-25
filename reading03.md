@@ -1,5 +1,7 @@
 # Revisons and the Cloud
 ## Git Tutorial: A Comprehensive Guide
+all information is my notes derived from [Git tutorial: A Comprehensive guide](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#6_3)
+all following material is for my personal study guide only
 * TOC
   * Version control  
     * local Version
