@@ -2,7 +2,7 @@
 ## **What is Markdown Syntax**
 My understanding of _**Markdown**_ is that it is a coding leanguage similar to HTML5. It is a shorter method, that once the syntax is understood, can be quicker and easier.
 ## **Headers**
-Markdown                  |            HTML5
+```Markdown                  |            HTML5
 --------------------------------------------
 ```#                      | <h1> </h1>
 ##                        | <h2> </h2>```
