@@ -78,4 +78,84 @@
         * File has been changed but not committed to the database
       * staged  
         * Flagged a file's changed version to be committed in the next snapshot 
-      * ![workflow chart](https://blog.udemy.com/wp-content/uploads/2015/08/image066.png)
+       ![workflow chart](https://blog.udemy.com/wp-content/uploads/2015/08/image066.png)
+ 
+## History of Git
+* traces its roots to the open source software project Linux Kernel.
+* devs of this project began with a DVCS call "_**BitKeeper**_" in 2002
+* 2005- many of the devs stopped this DVCS due to tension between Linux Kernel community and the company behind "_**BitKeeper**_"
+ * resulted in revocation of the DVCS' gratis status.
+ * Linus Torvald- Chief architect of Linux Kernel, began creating Git.
+  * Intention of creating a DVCS with workflow design similar to "_**BitKeeper**_".
+   * fast
+   * nonlinear development w/multiple branches
+   * can support large projects
+   * stong mechanisms prventing corruptiong
+   * simple design
+ ## Getting Started
+ * Download Git
+   * to use, my computer must hae it available. If i have used Git on my computer, make sure i have latest and greatest ver
+  * Git install 3 ways
+   1. Install as a package
+   2. install via another installer
+   3. Download and compile the source code
+ * Mac OS X
+   * Terminal
+     * Simplest method ( Mavericks 10.9 and above)- running Git form the terminal
+   * Git website
+     * http://git-scm.com/download/mac
+   * GitHub
+     * Install Git as park of the Github for Mac install
+     * http://mac.github.com
+ * Windows
+   * Git website
+     * http://git-scm.com/download/win
+   * Github 
+     * http://windows.github.com
+   * Linux
+     * Package manager
+       * Fedora: 
+         * $ sudo yum install git
+       * Ubuntu:
+         * $ sudo apt-get install git
+      * git webstie
+        * http://git-scm.com/downloads/guis
+## Graphical Clients
+ * Git includes inherent Graphical User Interface- (GUI) tools.
+ * can use third-party tools 
+   * [list of GUI clinets for all OS](https://git-scm.com/downloads/guis) 
+## Initial Customication
+* after ensuring Git instal, preform some customization steps (should only need to be done once on any machine. To change settings, repeat steps
+ * Configuration of Variables
+   * git config - allows the setting of the configuration variables that control aspects of Git's ops and look.
+ * Identity Setting
+   * after install, immediatly set the user name and email addres, used for every Git commit
+     * git config --global user.name (should return "my name")
+     * git config --global user.email (should return "my email")
+   * to confirm that i have correct settings
+     * git config --global user.name (should return "my name")
+     * git config --global user.email (should return "my email")
+   * by using global option, these Git settings apply system wide. To use a different identity settings for a specific project, change working directory to the desired local Git repo and repeat steps w/o using --global
+## Default text editor
+* w/o config of a default text editor, Git will use the system default, most likely Vim
+* to change this (to emacs):  in terminal:
+  * $ git config --global core.editor emacs 
+  * Note- some editors, I msut find specific instrustions for the default config
+## Check settings
+* check settings- use the ```git config --list``` command
+  * $ git config --list
+    user.name=Jane Smith
+    user.email=example@email.com
+    color.status+auto
+    color.branch=auto
+    color.interactive=auto
+## Getting Help
+* three ways to get more info on a paticular command, accessing the manual:
+ * git help command
+   git command --help
+   man git-command
+## Setting up a Git Repository
+ * Imporitng
+  * to import and exsisting project or directory into Git, type into terminal
+   *  
+ 
