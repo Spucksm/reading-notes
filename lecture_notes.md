@@ -25,4 +25,24 @@ what is it?
     usually, on project= one repository
     really large project might have multiple
     
+ git clone
+  (clones repository from GitHub saving it from the cloud to my system)
  
+ code .
+  (opens "VS Code" in file directory)
+  
+  APC process- Add, Commit, Push
+    way of getting changes from my computer to the repository (in this case GitHub)
+  * code- 
+    * git status
+    * git add (file name)
+      * git add readme.md
+    * git commit -m "added info to the readme file"
+    * git push origin name
+    * 
+## These are the ACP Steps
+* uploading my changes from my computer to the cloud
+  * git add (nameoffile)
+  * git commit -m "your message here"
+  * git push origin main
+  * 
