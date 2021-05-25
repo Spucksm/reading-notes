@@ -1,4 +1,10 @@
 # Revisons and the Cloud
+## Table of Contents
+  1. [Home](README.md)
+  2. [Markdown](markdown.md)
+  3. [Text-Editor](text-editor.md)
+  4. [Lecture Notes day 2](lecture_notes.md)
+  5. 
 ## Git Tutorial: A Comprehensive Guide
 all information is my notes derived from [Git tutorial: A Comprehensive guide](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#6_3)
 all following material is for my personal study guide only
