@@ -57,29 +57,39 @@ __You **can** combine them__
   
    1. Item 2b
  
-### Iamges
-Format: ```! [Alt text](url)
+### Images
+Format: ```![Alt text](url)```
 
-![github logo](/images/logo.png)```
+```![blossem](https://www.canva.com/design/DAEfdKm93d4/kNcvXMise3_a2Fw-nxrLhg/view?utm_content=DAEfdKm93d4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)```
 
+![blossem](https://www.canva.com/design/DAEfdKm93d4/kNcvXMise3_a2Fw-nxrLhg/view?utm_content=DAEfdKm93d4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
+### Links
+Format: ```[alt text](url)```
 
+example: [My first Github](https://spucksm.github.io/reading-notes/)
 
+### Blockquotes
+``` 
+Name of person quoting:
+>actual quote
+```
 
+John F Kennedy:
+>Ask not what your contry can do for you, ask what you can do for your country.
 
+### Inline code
+```'<adder>'```
+example: I think you should use an '<addr>' element here instead.
 
-
-
-
-
-
-
-
+### Tables
 ## **Headers**
-```Markdown                  |            HTML5
+```
+Markdown               |            HTML5
 --------------------------------------------
-```#                      | <h1> </h1>
-##                        | <h2> </h2>```
+#                      | <h1> </h1>
+##                     | <h2> </h2>
+```
 
 ## **Lists**
 ### Unordered
