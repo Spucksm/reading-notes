@@ -1,3 +1,10 @@
+## Table of Contents
+  1. [Home](README.md)
+  2. [Markdown](markdown.md)
+  3. [Text-Editor](text-editor.md)
+  4. [Reading 03 Day 2](reading03.md)
+
+
 102 May 25, 2021 Tuesday
 What is git
 is the engine under the hood for GitHub
