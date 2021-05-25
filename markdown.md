@@ -4,8 +4,8 @@ My understanding of _**Markdown**_ is that it is a coding leanguage similar to H
 ## **Headers**
 Markdown                  |            HTML5
 --------------------------------------------
-#                         | <h1> </h1>
-##                        | <h2> </h2>
+```#                      | <h1> </h1>
+##                        | <h2> </h2>```
 
 ## **Lists**
 ### Unordered
