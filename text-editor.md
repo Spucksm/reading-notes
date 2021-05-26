@@ -3,8 +3,10 @@ These are terms, notes, and key strokes used in the terminal.
 ## Table of Contents
   1. [Home](README.md)
   2. [Markdown](markdown.md)
-  3. [Lecture Notes day 2](lecture_notes.md)
-  4. [Reading 03 Day 2](reading03.md)
+  3. [Day 2 Morning lecture notes](lecture_notes.md)
+  4. [Reading 02 Day 1](reading02.md)
+  5. [Reading 03 Day 2](reading03.md)
+  6. [Reading 04 Day 2](reading04.md)
 
 ### commands:
 * pwd

@@ -3,13 +3,15 @@
   1. [Home](README.md)
   2. [Markdown](markdown.md)
   3. [Text-Editor](text-editor.md)
-  4. [Lecture Notes day 2](lecture_notes.md)
-  5. 
+  4. [Day 2 Morning lecture notes](lecture_notes.md)
+  5. [Reading 02 Day 1](reading02.md)
+  6. [Reading 04 Day 2](reading04.md)
+
 ## Git Tutorial: A Comprehensive Guide
-all information is my notes derived from [Git tutorial: A Comprehensive guide](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#6_3)
-all following material is for my personal study guide only
-* TOC
-  * Version control  
+All information is my notes derived from [Git Tutorial: A Comprehensive Guide](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#6_3),
+all following material is for my personal study guide only.
+* ToC
+  * <a href= "#Versioncontrol"> Version Control </a>
     * local Version
     * Centralized Version Control
     * Distributed Version Control
@@ -35,11 +37,11 @@ all following material is for my personal study guide only
     * committing all changes
     * pushing changes
     * stashing changes
-  * Remote REpositories
+  * Remote Repositories
     * cloned Repositories
     * Seeing your remote
 
-## Version control
+## <a id="Versioncontrol">Version Control</a>
   * Is a system that allows me to revisit various systems of a file or set of files by recording changes. 
     * I can revert a file or a project to a previos version
     * track modifications and modifying individuals
@@ -171,16 +173,16 @@ all following material is for my personal study guide only
          b. $ git init
             i. at this stage, i have created a new subdirectory named ".git" that has the repository files. tracking has not commenced.
      3. To start tracking these repository files, preform an inital commit by typing the following:
-        c. $ git add ```*.c```
-        d. $ git add LICENSE
-        e. $git commit -m "any message here"
+        1. $ git add *.c
+        2. $ git add LICENSE
+        3. $ git commit -m "any message here"
         files are now tracked and there's an inital commit
  * Cloning
    * I can also create a copy of an exisitng Git repo by cloning repo
      * $ git clone https://github.com/test mydirectory
-       *command makes a copy of the tgt repo in a dir named "mydirectory"  
+       * command makes a copy of the tgt repo in a dir named "mydirectory"  
 ## Workflow
- * Local REpository structure
+ * Local Repository structure
    * Working Directory: the actual files reside here.
    * Index: The area used for staging
    * Head: Points to the most recent commit
@@ -204,28 +206,28 @@ all following material is for my personal study guide only
    * nothing to commit, working directory clean
    * not- this indicates which brach i'm on (will over branches in a later section) and states "working directory clean," which menas that files have tracked or modified status at the moment. Also, no untracked files are present because Git has not listed any.  
  * Tracking and Staging a New File
-   * Single File- trakc one file only:
+   * Single File- track one file only:
      * git add filename
    * All files:
-     * $git add *
+     * $ git add .
    * note- after using these commands, files are tracked and staged for committing.
-   * After adding a new file called "Example" i will see info regarding changes to be committed:
+   * After adding a new file called "Example" I will see info regarding changes to be committed:
      * $ git status
-       branch master
+       * branch master
        changes to be committed:
        (use "git reset Head..." to unstage)
        new file: EXAMPLE
-     * this tells us tthat there are changes committed and that the files ahs beeen staged.
+      * this tells us tthat there are changes committed and that the files ahs beeen staged.
  * Committing A File
    * After stagging one or multiple files, I should commit the changes and record what I did w/in the commit message:
-     * $ git commit -"made change x,y,z"
+     * $ git commit -m "made change x,y,z"
    * this has committed changes for the file or files (I can have one commit message for multiple files, if app) to the HEAD
  * Committing All Changes
    * $ git commit -a 
  * Pushing Changes
    * push changes to a remote repo:
-     * $git push origin master
-     * note- This cmd pushed changes from the local "master" branch to the remote repo named "origin"  
+     * $git push origin main
+     * note- This cmd pushed changes from the local "main" branch to the remote repo named "origin"  
  * Stashing Changes
    * if not ready to commit changes, but don't want to lose data:
      * git stash   (temp removes changes and hides them, gives clean dir) when ready to continue working:

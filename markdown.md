@@ -1,9 +1,12 @@
 # This is where I will put my reading notes for markdown class notes.
 ## Table of Contents
   1. [Home](README.md)
-  2. [Lecture Notes day 2](lecture_notes.md)
-  3. [Text-Editor](text-editor.md)
-  4. [Reading 03 Day 2](reading03.md)
+  2. [Text-Editor](text-editor.md)
+  3. [Day 2 Morning lecture notes](lecture_notes.md)
+  4. [Reading 02 Day 1](reading02.md)
+  5. [Reading 03 Day 2](reading03.md)
+  6. [Reading 04 Day 2](reading04.md)
+
 ## **What is Markdown Syntax**
 My understanding of _**Markdown**_ is that it is a coding leanguage similar to HTML5. It is a shorter method, that once the syntax is understood, can be quicker and easier.
 
