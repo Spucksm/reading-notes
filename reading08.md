@@ -134,4 +134,54 @@ var mycar = { make: 'Honda', model: 'Accord', year: 1998 };
     * is any valid unit of code that resolves to a value
     * every syntactically valid expression resolves to some value but conceptally, there are two types of expressions: with side effects (for example: those that assign value to a variable) and those that in some sense evaluate and therefore resolve to a value.
     * the expression "x = 7" is an example of the first type. This expression uses the = operator to assign the value seven to the variable x. the expression itself evaluates to seven.
-    
+## Loops and Iteration
+    * Loops offer a quick and easy way to do something repeatedly. Think of a loop as a computerized version of the game whre you tell someone to take x steps in one direction, they y steps in another. ie- go five steps to the east
+        * for (let step = 0; step < 5; step++) {
+            // runs 5 times, with values of step 0 through 4.
+            * console.log('walking east one step');
+        }
+    * "for" statement
+        * A "for" loop repeats until a specified condition evaluates to "false". The JS "for" loop is similiar to the JS and C "for" loop.
+            * for ([initialExpression]; [conditionExpression]; [incrementExpression]) statement
+        * When a "for" loop executes, the following occurs:
+            1. the initializing expression "initialExpression", if any, is executed. This expression usually initializes one or more loop counters, bu the syntax allows an expression of any degree of complexity. This expression can also declare variables.
+            2. The "conditionExpression" expression is evaluated. If the value of "conditonExpression" is true, the loop statements execute. If the value of "condition" is false, the "for" loop terminates. (If the "condition" expression is omitted entirely, the condition is assumed to be true.)
+            3. The "statement" executes. To execute multiple statements, use a block statement ({ ... }) to group those statements.
+            4. If present, the update expression "incrementExpression" is executed.
+            5. Control returns to step 2.
+        <form name="selectForm">
+            <p>
+                <label for="musicTypes">Choose some musix types, then click the button below:</label>
+                <select id="musicTypes" name="musicTypes" multiple="multiple">
+                    <option selected="selected">R&b</option>
+                    <option>Jazz</option>
+                    <option>Blues</option>
+                    <option>New Age</option>
+                    <option>Classical</option>
+                    <option>Opera</option>
+                </select>
+            </p>
+            <p><input id="btn" type="button" value="How many are selected?" /></p>
+        </form>
+        <script>
+        function howMany(selectObject) {
+            let numberSelected = 0;
+            for (let i=0; i < selectObject.options.length; i++) {
+                if (selectObject.options[i].selected){
+                    numberSelected++;
+                }
+            }
+            return numberSelected;
+        }
+
+        let btn = document.getElementByIs('btn);
+        btn.addEventListener('click, function(){
+            alert('Number of options selected: ' + howMany(document.selectForm.musicTypes));
+        });
+        </script>
+    * do...while statement
+        * repeats until a specified condition evaluates to false.
+        * do
+            *statement
+        while (condition);
+
