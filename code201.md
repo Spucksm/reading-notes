@@ -4,7 +4,7 @@ This is my Code 201 Reading Notes Repo
 
 ## Table of Contents
   1. [Home](README.md)
-  2. [Code 201 Start](201home.md)
+  2. [Code 201 Start](code201.md)
   3. [Read 01: Introductory HTML and JavaScript](read01.md)
   4. [HTML Text, CSS Introduction, and basic JavaScript Instructions](read02.md)
   5. [HTML Lists, CSS Boxes, JS Control Flow](read03.md)
