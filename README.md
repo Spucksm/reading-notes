@@ -2,14 +2,8 @@
 
 This is my reading notes repo to track all of my reading notes.
 ## Table of Contents
-  1. [Markdown](markdown.md)
-  2. [Text-Editor](text-editor.md)
-  3. [Day 2 Morning lecture notes](lecture_notes.md)
-  4. [Reading 02 Day 1](reading02.md)
-  5. [Reading 03 Day 2](reading03.md)
-  6. [Reading 04 Day 2](reading04.md)
-  7. [Code 201 Reading Notes](code201.md)
-  8. [Code 102 Home Page](code102home.md)
+  1. [Code 201 Reading Notes](code201.md)
+  2. [Code 102 Home Page](code102home.md)
 
 ## About me
 Hello my name is Spenser, and I am a current student at CodeFellows. I am changing careers to become a code developer in order to gain a better career. I am starting with no coding background, so all of this feels like a foreign language to me. A little about me, I served in the Marines for 10 years. I joined in 2007 to active duty with a MOS (military occupation specialty) 0311 Infantryman. I changed my MOS in 2014 to 0861 Fire Support Man, and went from active duty to the reserves. I just recently left the Marines finishing my last contract in 2020.
