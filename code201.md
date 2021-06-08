@@ -1,5 +1,7 @@
 # Code 201 Reading Notes
+
 This is my Code 201 Reading Notes Repo
+
 ## Table of Contents
   1. [Home](README.md)
   2. [Code 201 Start](201home.md)
